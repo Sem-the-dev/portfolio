@@ -1,9 +1,16 @@
+:root {
+  --black: #1b1a17;
+  --orange: #ff8303;
+  --brown: #a35709;
+  --beige: #f0e3ca;
+  --pink: #ffd5cd;
+  --lightpink: #fcf1f1;
+}
 .App {
   text-align: center;
-
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -12,28 +19,24 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #eeeeee;
-}
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color: var(--orange);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h5 {
+  color: var(--brown);
+}
+
+@media only screen and (min-width: 760px) {
+  /* .card-body {
+    width: 30vh;
+  } */
 }

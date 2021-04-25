@@ -1,10 +1,121 @@
+:root {
+  --black: #1a1c20;
+  --orange: #f9813a;
+  --pink: #ffd5cd;
+  --lightpink: #fcf1f1;
+}
+
 .projectSection {
   background-color: #222831;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 75vh;
+  display: grid;
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
+
+  /* justify-content: center; */
+
   font-size: calc(10px + 2vmin);
   color: #eeeeee;
 }
+
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+h3 {
+  font-family: "Exo", sans-serif;
+}
+
+p {
+  color: var(--pink);
+  font-size: 1rem;
+  font-family: "Exo", sans-serif;
+}
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  border-radius: 8px;
+  opacity: 0.9;
+}
+
+img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.col {
+  margin-bottom: 4rem;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+/* rows */
+
+.projectRows {
+  margin-bottom: 2rem;
+}
+
+#belieber-name {
+  color: #caf7e3;
+}
+
+#belieber-name:hover {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+#github-name {
+  color: #4f94e4;
+}
+
+#github-name:hover {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+#gossip-girl-name {
+  color: #f25287;
+}
+
+#gossip-girl-name:hover {
+  color: var(--orange);
+  text-decoration: none;
+}
+#habit-tracker-name {
+  color: #737373;
+}
+
+#habit-tracker-name:hover {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+#code-color {
+  color: #00c2cb;
+}
+
+#bracket-color {
+  color: #7868e6;
+}
+
+.project-links a {
+  color: var(--orange);
+  font-size: 0.8rem;
+  font-family: "Exo", sans-serif;
+}
+
+.project-links a {
+  color: var(--orange);
+  font-size: 0.8rem;
+  font-family: "Exo", sans-serif;
+}
+.project-links:hover a {
+  color: var(--pink);
+  text-decoration: none;
+  cursor: pointer;
+}
+
