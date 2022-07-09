@@ -1,1 +1,1 @@
-### [My Portfolio](https://sem-the-dev.netlify.app/)
+### [My Portfolio](https://sem-the-dev.netlify.app/) 👩🏾‍💻
