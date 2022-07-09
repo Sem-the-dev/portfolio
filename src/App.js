@@ -6,7 +6,7 @@ import AboutMe from "./AboutMe";
 
 function App() {
   return (
-    <div className="App">
+    <div className="page-container">
       <section>
         <AboutMe />
         <Skills />

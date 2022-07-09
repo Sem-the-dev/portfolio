@@ -16,9 +16,9 @@ export default function projects() {
   return (
     <div className="projectSection">
       <h1>Projects</h1>
-      
+
       <div className="row projectRows">
-        <div className="col">
+        <div className="col card-container">
           <div className="card-body">
             <a
               href="https://gossip-girl-xoxo.netlify.app"
@@ -61,7 +61,7 @@ export default function projects() {
             reactions and comments.
           </p>
         </div>
-        <div className="col">
+        <div className="col card-container">
           <div className="card-body">
             <a
               href="https://drink-sleep-code-repeat.netlify.app"
@@ -108,7 +108,7 @@ export default function projects() {
         </div>
       </div>
       <div className="row projectRows">
-        <div className="col">
+        <div className="col card-container">
           <div className="card-body">
             <a
               href="https://git-pinner.netlify.app"
@@ -151,7 +151,7 @@ export default function projects() {
             programming language and more.
           </p>
         </div>
-        <div className="col">
+        <div className="col card-container">
           <div className="card-body">
             <a
               href="https://beliebers.netlify.app/"

@@ -20,7 +20,7 @@ export default function AboutMe() {
 
       <p>
         <a href="https://github.com/Sem-the-dev" id="sem-the-dev">
-          sem-the-dev
+          Sem-the-dev
         </a>{" "}
       </p>
 

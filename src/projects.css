@@ -48,15 +48,18 @@ img:hover {
   cursor: pointer;
 }
 
-.col {
+.card-container {
   margin-bottom: 4rem;
   padding-right: 30px;
   padding-left: 30px;
+  flex: 50%;
 }
 /* rows */
 
 .projectRows {
   margin-bottom: 2rem;
+  display:flex;
+  flex-wrap: wrap;
 }
 
 #belieber-name {
@@ -119,3 +122,9 @@ img:hover {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1028px) {
+  .card-container {
+    flex:100%;
+  }
+
+}
